@@ -1789,7 +1789,7 @@ body:not(.post-template) .post-title {
 /* ==========================================================================
    13. Cover
    ========================================================================== */
-.cover {
+.cover-container {
 	display: block;
 	position: absolute;
 	margin: auto;
@@ -1813,8 +1813,8 @@ body:not(.post-template) .post-title {
 .cover-cloud:before {
 		border-radius: 50%;
 		box-shadow: 20px -20px 0 0 #fff,
-								90px 0 0 0 #fff,
-								60px -27px 0 8px #fff;
+					90px 0 0 0 #fff,
+					60px -27px 0 8px #fff;
 		content: "";
 		position: absolute;
 		width: 48px;
