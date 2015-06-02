@@ -1483,6 +1483,9 @@ body:not(.post-template) .post-title {
     .no-cover.main-header {
         height: 30%;
     }
+    .cover-title {
+		opacity: 1;
+	}
 
     .archive-template .main-header {
         max-height: 20%;
