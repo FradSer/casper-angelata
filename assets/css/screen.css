@@ -17,8 +17,7 @@
     10. Media Queries (Tablet)
     11. Media Queries (Mobile)
     12. Animations
-
-*/
+    13. Cover
 
 /* ==========================================================================
    0. Normalize.css v2.1.3 | MIT License | git.io/normalize | (minified)
@@ -1786,6 +1785,148 @@ body:not(.post-template) .post-title {
                 transform: translateY(-5px) rotate(-90deg);
     }
 }
+
+/* ==========================================================================
+   13. Cover
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
+
+.cover.wrapper {
+	height: 400px;
+	width: 600px;
+	margin: auto;
+	font-family: 'Clicker Script', cursive;
+}
+
+.cover.cloud {
+	background: #fff;
+	width: 90px;
+	height: 42px;
+	-webkit-animation: clouds 40s infinite;
+	margin-left: 0;
+}
+
+.cover.cloud:before {
+		border-radius: 50%;
+		box-shadow: 20px -20px 0 0 #fff,
+								90px 0 0 0 #fff,
+								60px -27px 0 8px #fff;
+		content: "";
+		position: absolute;
+		width: 48px;
+		height: 48px;
+		left: -22px;
+		bottom: 0;
+		background: #fff;
+}
+
+.cover.cloud:nth-child(1){ top: auto; bottom: 120px; opacity: 0.85}
+.cover.cloud:nth-child(2){ right: auto; left: 320px; opacity: 0.5}
+.cover.cloud:nth-child(3){ bottom: auto; top: 120px; right: auto; left: 80px; opacity: 0.75;}
+.cover.cloud:nth-child(4){ bottom: auto; top: 20px; right: auto; left: 320px; opacity: 0.65;}
+
+.cover.moon {
+	height: 120px;
+	width: 120px;
+	background: #666666;
+	border-radius: 60px;
+	box-shadow: 0 0 60px 1px #444444;
+}
+
+.cover.moon:before {
+		border-radius: 60px;
+		box-shadow: 10px -50px 0 0 #444,
+								50px 0 0 0 #444,
+								50px -37px 0 10px #444;
+		content: "";
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		left: 30px;
+		bottom: 10px;
+		background: #444;
+}
+
+.cover.cat {
+	background:#EEEEEE;
+	height: 60px;
+	top: auto;
+	bottom: 200px;
+	width: 60px;
+	z-index: 0;
+	-webkit-transition: all linear 1s;
+}
+
+.cover.cat:before, .cover.cat:after {
+		width: 0;
+		height: 0;
+		top: -10px;
+		position: absolute;
+		content: "";
+}
+
+.cover.cat:before{
+		border-left: 0px solid transparent;
+		border-right: 15px solid transparent;
+		border-bottom: 15px solid #EEE;
+		left: 0;
+}
+
+.cover.cat:after{
+		border-right: 0px solid transparent;
+		border-left: 15px solid transparent;
+		border-bottom: 15px solid #EEE;
+		right: 0;
+}
+
+.cover.cat .eyes{
+	position: absolute;
+	height: 8px; width: 8px;
+	background: #333;
+	border-radius: 100%;
+	top: 15px;
+}
+
+.cover.cat .eyes.left{ left: 12px; }
+.cover.cat .eyes.right{  right: 12px; }
+
+.cover.cat .mouth{
+	position: absolute;
+	height: 4px; width: 60%;
+	background: #333;
+	border-radius: 0 0 30% 30%;
+	top: 28px;
+	margin: auto;
+	left: 0; right: 0;
+}
+
+.cover.wrapper:hover .cover.cat{
+	bottom: 240px;
+}
+
+@-webkit-keyframes clouds /*Safari and Chrome*/ {
+0 {margin-left:0;}
+25% {margin-left:100px;}
+50% {margin-left:0;}
+75% {margin-left:30px;}
+100% {margin-left: 0;}
+}
+
+.cover.title{
+	color: #999;
+	text-align: center;
+	-webkit-transition: opacity 1s linear;
+	opacity: 0;
+	font-weight: 300;
+	text-shadow: 0px 0px 20px #FFF;
+}
+
+
+.cover.wrapper:hover .cover.title{
+	opacity: 1;
+}
+
 
 
 /* ==========================================================================
