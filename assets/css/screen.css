@@ -1894,18 +1894,18 @@ body:not(.post-template) .post-title {
 	height: 8px; width: 8px;
 	background: #333;
 	border-radius: 100%;
-	top: 20%;
+	top: 5%;
 }
 
-.cover-cat .eyes.left{ left: 10%; }
-.cover-cat .eyes.right{  right: 10%; }
+.cover-cat .eyes.left{ left: 5%; }
+.cover-cat .eyes.right{  right: 5%; }
 
 .cover-cat .mouth{
 	position: absolute;
 	height: 4px; width: 60%;
 	background: #333;
 	border-radius: 0 0 30% 30%;
-	top: 40%;
+	top: 15%;
 	margin: auto;
 	left: 0; right: 0;
 }
