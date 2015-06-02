@@ -1928,6 +1928,7 @@ body:not(.post-template) .post-title {
 
 .cover-title{
 	opacity: 0;
+	top: 0px;
 }
 
 
