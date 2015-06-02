@@ -37,7 +37,7 @@ html {
    -webkit-text-size-adjust: 100%;
 }
 body { margin: 0; }
-span{
+div{
 	display: block;
 	position: absolute;
 	margin: auto;
