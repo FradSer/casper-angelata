@@ -1790,13 +1790,10 @@ body:not(.post-template) .post-title {
    13. Cover
    ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
-
 .cover-wrapper {
 	height: 400px;
 	width: 600px;
 	margin: auto;
-	font-family: 'Clicker Script', cursive;
 }
 
 .cover-cloud {
@@ -1914,12 +1911,7 @@ body:not(.post-template) .post-title {
 }
 
 .cover-title{
-	color: #999;
-	text-align: center;
-	-webkit-transition: opacity 1s linear;
 	opacity: 0;
-	font-weight: 300;
-	text-shadow: 0px 0px 20px #FFF;
 }
 
 
