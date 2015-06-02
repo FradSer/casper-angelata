@@ -1804,8 +1804,9 @@ body:not(.post-template) .post-title {
 
 .cover-wrapper {
 	height: 400px;
-	width: 600px;
+	width: 500px;
 	margin: auto;
+	top: 10rem;
 }
 
 .cover-cloud {
@@ -1831,9 +1832,9 @@ body:not(.post-template) .post-title {
 }
 
 .cover-cloud:nth-child(1){ top: auto; bottom: 120px; opacity: 0.85}
-.cover-cloud:nth-child(2){ right: auto; left: 320px; opacity: 0.5}
-.cover-cloud:nth-child(3){ bottom: auto; top: 120px; right: auto; left: 80px; opacity: 0.75;}
-.cover-cloud:nth-child(4){ bottom: auto; top: 20px; right: auto; left: 320px; opacity: 0.65;}
+.cover-cloud:nth-child(2){ right: auto; left: 400px; opacity: 0.5}
+.cover-cloud:nth-child(3){ bottom: auto; top: 120px; right: auto; left:-70px; opacity: 0.75;}
+.cover-cloud:nth-child(4){ bottom: auto; top: 90px; right: auto; left: 300px; opacity: 0.65;}
 
 .cover-moon {
 	height: 120px;
