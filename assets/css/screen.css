@@ -37,6 +37,12 @@ html {
    -webkit-text-size-adjust: 100%;
 }
 body { margin: 0; }
+div{
+	display: block;
+	position: absolute;
+	margin: auto;
+	top:0; bottom:0; left:0; right:0;
+}
 a { background: transparent; }
 a:focus { outline: thin dotted; }
 a:active, a:hover { outline: 0; }
