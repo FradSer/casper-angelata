@@ -1799,10 +1799,6 @@ body:not(.post-template) .post-title {
    13. Cover
    ========================================================================== */
 .cover-container {
-	display: block;
-	position: absolute;
-	margin: auto;
-	top:0; bottom:0; left:0; right:0;
 }
 
 .cover-wrapper {
@@ -1898,11 +1894,11 @@ body:not(.post-template) .post-title {
 	height: 8px; width: 8px;
 	background: #333;
 	border-radius: 100%;
-	top: 15px;
+	top: 8px;
 }
 
-.cover-cat .eyes.left{ left: 12px; }
-.cover-cat .eyes.right{  right: 12px; }
+.cover-cat .eyes.left{ left: 8px; }
+.cover-cat .eyes.right{  right: 8px; }
 
 .cover-cat .mouth{
 	position: absolute;
