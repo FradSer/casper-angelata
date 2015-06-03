@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "You are Working!"
+
+fswatch -o . ./assets/css/ | xargs -n1 -I{} ./.reload

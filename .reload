@@ -1,0 +1,17 @@
+#!/bin/bash
+echo
+
+osascript <<EOD
+	property newURL : "http://localhost:2368"
+
+	tell application "Safari"
+		tell front window
+			tell current tab
+				set URL to newURL
+			end tell
+		end tell
+	end tell
+EOD
+
+echo "Reloaded!"
+
