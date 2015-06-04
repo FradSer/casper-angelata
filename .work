@@ -1,4 +1,12 @@
 #!/bin/bash
+
 echo "You are Working!"
 
-fswatch -o . ./assets/css/ | xargs -n1 -I{} ./.reload
+osascript <<EOD
+	tell application "Terminal"
+		if not (exists window 1) then reopen
+		activate
+		do script "cd ~/Developer/fradser.me/ghost/ && npm start --development"
+		do script "fswatch -o ~/Developer/fradser.me/ghost/ ~/Developer/fradser.me/ghost/assets/css/ | xargs -n1 -I{} ~/Developer/fradser.me/ghost/content/themes/casper-mod/.reload"
+	end tell
+EOD

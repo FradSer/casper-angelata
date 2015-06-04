@@ -5,10 +5,9 @@ osascript <<EOD
 	property newURL : "http://localhost:2368"
 
 	tell application "Safari"
-		tell front window
-			tell current tab
-				set URL to newURL
-			end tell
+		if not (exists window 1) then reopen
+		tell current tab of front window
+			set URL to newURL
 		end tell
 	end tell
 EOD
