@@ -1573,6 +1573,10 @@ body:not(.post-template) .post-title {
         display: none;
     }
 
+    .post-comment{
+    	display: none;
+    }
+
     .post-template .post-header {
         margin-bottom: 2rem;
     }
