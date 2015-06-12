@@ -36,12 +36,6 @@ html {
    -ms-text-size-adjust: 100%;
    -webkit-text-size-adjust: 100%;
 }
-div{
-	display: block;
-	position: absolute;
-	margin: auto;
-	top:0; bottom:0; left:0; right:0;
-}
 body { margin: 0; }
 a { background: transparent; }
 a:focus { outline: thin dotted; }
@@ -1732,7 +1726,7 @@ body:not(.post-template) .post-title {
         font-size: 1.4rem;
     }
 
-    .archive-template .main-header .page-description {
+    .archive-template .main-header .page-description .cover-container {
         display: none;
     }
 
@@ -1802,28 +1796,46 @@ body:not(.post-template) .post-title {
 /* ==========================================================================
    13. Cover
    ========================================================================== */
-.cover-container {
-}
+
 
 .cover-wrapper {
-	height: 400px;
-	width: 500px;
+	display: block;
+	position: absolute;
+	margin: auto;
+	top:0; bottom:0; left:0; right:0;
+	height: 60%;
+	width: 60%;
 	margin: auto;
 }
 
+.cover-container{
+	display: block;
+	position: absolute;
+	margin: auto;
+	top:0; bottom:0; left:0; right:0;
+}
+
 .cover-cloud {
+	display: block;
+	position: absolute;
+	margin: auto;
+	top:0; bottom:0; left:0; right:0;
 	width: 144px;
 	height: 84px;
 	-webkit-animation: clouds 40s infinite;
 	margin-left: 0;
 }
 
-.cover-cloud:nth-child(1){ top: auto; bottom: 120px; opacity: 0.85}
-.cover-cloud:nth-child(2){ right: auto; left: 400px; opacity: 0.5}
-.cover-cloud:nth-child(3){ bottom: auto; top: 120px; right: auto; left:-70px; opacity: 0.75;}
-.cover-cloud:nth-child(4){ bottom: auto; top: 90px; right: auto; left: 300px; opacity: 0.65;}
+.cover-cloud:nth-child(1){ top: auto; bottom: 30%; opacity: 0.85}
+.cover-cloud:nth-child(2){ right: auto; left: 40%; opacity: 0.5}
+.cover-cloud:nth-child(3){ bottom: auto; top: 30%; right: auto; left:-15%; opacity: 0.75;}
+.cover-cloud:nth-child(4){ bottom: auto; top: 10%; right: auto; left: 45%; opacity: 0.65;}
 
 .cover-moon {
+	display: block;
+	position: absolute;
+	margin: auto;
+	top:0; bottom:0; left:0; right:0;
 	height: 120px;
 	width: 120px;
 	border-radius: 60px;
@@ -1831,6 +1843,10 @@ body:not(.post-template) .post-title {
 }
 
 .cover-cat {
+	display: block;
+	position: absolute;
+	margin: auto;
+	top:0; bottom:0; left:0; right:0;
 	height: 60px;
 	width: 70px;
 	bottom: 75px;
@@ -1851,15 +1867,13 @@ body:not(.post-template) .post-title {
 }
 
 .cover-title{
-	opacity: 0;
-	top: 0px;
+	opacity: 1;
+	top: 30%; bottom: auto;
 }
-
 
 .cover-wrapper:hover .cover-title{
 	opacity: 1;
 }
-
 
 
 /* ==========================================================================
