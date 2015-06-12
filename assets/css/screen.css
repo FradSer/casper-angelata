@@ -1809,29 +1809,13 @@ body:not(.post-template) .post-title {
 	height: 400px;
 	width: 500px;
 	margin: auto;
-	top: 10rem;
 }
 
 .cover-cloud {
-	background: #fff;
-	width: 90px;
-	height: 42px;
+	width: 100%;
+	height: 100%;
 	-webkit-animation: clouds 40s infinite;
 	margin-left: 0;
-}
-
-.cover-cloud:before {
-		border-radius: 50%;
-		box-shadow: 20px -20px 0 0 #fff,
-					90px 0 0 0 #fff,
-					60px -27px 0 8px #fff;
-		content: "";
-		position: absolute;
-		width: 48px;
-		height: 48px;
-		left: -22px;
-		bottom: 0;
-		background: #fff;
 }
 
 .cover-cloud:nth-child(1){ top: auto; bottom: 120px; opacity: 0.85}
@@ -1840,82 +1824,21 @@ body:not(.post-template) .post-title {
 .cover-cloud:nth-child(4){ bottom: auto; top: 90px; right: auto; left: 300px; opacity: 0.65;}
 
 .cover-moon {
-	height: 120px;
-	width: 120px;
-	background: #666666;
+	height: 100%;
+	width: 100%;
 	border-radius: 60px;
 	box-shadow: 0 0 60px 1px #444444;
 }
 
-.cover-moon:before {
-		border-radius: 60px;
-		box-shadow: 10px -50px 0 0 #444,
-								50px 0 0 0 #444,
-								50px -37px 0 10px #444;
-		content: "";
-		position: absolute;
-		width: 20px;
-		height: 20px;
-		left: 25px;
-		bottom: 20px;
-		background: #444;
-}
-
 .cover-cat {
-	background:#EEEEEE;
-	height: 60px;
-	top: auto;
-	bottom: 200px;
-	width: 60px;
+	height: 100%;
+	width: 100%;
 	z-index: 0;
-	-webkit-transition: all linear 1s;
-}
-
-.cover-cat:before, .cover-cat:after {
-		width: 0;
-		height: 0;
-		top: -10px;
-		position: absolute;
-		content: "";
-}
-
-.cover-cat:before{
-		border-left: 0px solid transparent;
-		border-right: 15px solid transparent;
-		border-bottom: 15px solid #EEE;
-		left: 0;
-}
-
-.cover-cat:after{
-		border-right: 0px solid transparent;
-		border-left: 15px solid transparent;
-		border-bottom: 15px solid #EEE;
-		right: 0;
-}
-
-.cover-cat .eyes{
-	position: absolute;
-	height: 8px; width: 8px;
-	background: #333;
-	border-radius: 100%;
-	top: -20px;
-}
-
-.cover-cat .eyes.left{ left: -20px; }
-.cover-cat .eyes.right{  right: -20px; }
-
-.cover-cat .mouth{
-	position: absolute;
-	height: 4px; width: 60%;
-	background: #333;
-	border-radius: 0 0 30% 30%;
-	top: 15%;
-	margin: auto;
-	left: 0; right: 0;
+	-webkit-transition: all linear 0.7s;
 }
 
 .cover-wrapper:hover .cover-cat{
-	bottom: 240px;
+	bottom: 300px;
 }
 
 @-webkit-keyframes clouds /*Safari and Chrome*/ {

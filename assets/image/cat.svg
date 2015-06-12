@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="70px" viewBox="0 0 60 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>cat</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="cloud" sketch:type="MSArtboardGroup" transform="translate(-270.000000, -128.000000)">
+            <g id="cat" sketch:type="MSLayerGroup" transform="translate(270.000000, 128.000000)">
+                <path d="M10,10 L0,0 L0,10 L0,70 L60,70 L60,10 L60,0 L50,10 L10,10 L10,10 Z" id="face" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                <path d="M12,45 L48,45 L48,48 C48,48 35.9433594,49 30,49 C23.9433594,49 12,48 12,48 L12,45 Z" id="mouth" fill="#363636" sketch:type="MSShapeGroup"></path>
+                <circle id="eye_left" fill="#363636" sketch:type="MSShapeGroup" cx="19" cy="34" r="4"></circle>
+                <circle id="eye_right" fill="#363636" sketch:type="MSShapeGroup" cx="41" cy="34" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
