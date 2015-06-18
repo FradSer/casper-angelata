@@ -1726,7 +1726,7 @@ body:not(.post-template) .post-title {
         font-size: 1.4rem;
     }
 
-    .archive-template .main-header .page-description .cover-container {
+    .archive-template .main-header .page-description .cover-moon .cover-cat {
         display: none;
     }
 
