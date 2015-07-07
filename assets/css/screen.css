@@ -1391,6 +1391,15 @@ body:not(.post-template) .post-title {
         line-height: 1.5em;
     }
 
+    .cover-wrapper .cover-title {
+	opacity: 1;
+	}
+
+	.cover-wrapper .cover-container .cover-cat,
+	.cover-wrapper .cover-container .cover-moon {
+		display: none;
+	}
+
     .post {
         font-size: 0.95em
     }
@@ -1483,8 +1492,15 @@ body:not(.post-template) .post-title {
     .no-cover.main-header {
         height: 30%;
     }
-    .cover-title {
+
+    .cover-wrapper .cover-title {
 		opacity: 1;
+
+	}
+
+	.cover-wrapper .cover-container .cover-cat,
+	.cover-wrapper .cover-container .cover-moon {
+		display: none;
 	}
 
     .archive-template .main-header {
@@ -1732,8 +1748,8 @@ body:not(.post-template) .post-title {
         font-size: 1.4rem;
     }
 
-    .archive-template .main-header .page-description .cover-moon .cover-cat {
-        display: none;
+    .archive-template .main-header .page-description {
+        opacity: 0;
     }
 
 }
