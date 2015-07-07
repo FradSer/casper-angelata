@@ -1161,6 +1161,7 @@ body:not(.post-template) .post-title {
 }
 
 .author-title {
+	font-family: "Titillium Web", sans-serif;
     margin: 1.5rem 0 1rem;
 }
 
@@ -1179,7 +1180,7 @@ body:not(.post-template) .post-title {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "sourcehansans-sc", serif;
+    font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
