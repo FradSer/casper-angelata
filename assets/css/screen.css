@@ -116,7 +116,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* Apply these base styles to all icons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "casper-icons", "Titillium Web", sans-serif;
+    font-family: "casper-icons", "sourcehansans-sc", sans-serif;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -175,7 +175,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
+    font-family: "sourcehansans-sc", serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
@@ -201,7 +201,7 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Titillium Web", sans-serif;
+    font-family: "sourcehansans-sc", sans-serif;
 }
 
 h1 {
@@ -492,7 +492,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .main-nav a {
     text-decoration: none;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'sourcehansans-sc', sans-serif;
 }
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
@@ -1174,7 +1174,7 @@ body:not(.post-template) .post-title {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Merriweather", serif;
+    font-family: "sourcehansans-sc", serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
@@ -1222,7 +1222,7 @@ body:not(.post-template) .post-title {
     width: 80%;
     max-width: 710px;
     margin: 4rem auto;
-    font-family: "Titillium Web", sans-serif;
+    font-family: "sourcehansans-sc", sans-serif;
     font-size: 1.3rem;
     color: #9EABB3;
     text-align: center;
@@ -1309,7 +1309,7 @@ body:not(.post-template) .post-title {
     margin: 8rem 0 0 0;
     padding: 0.5rem 15px;
     border-top: #EBF2F6 1px solid;
-    font-family: "Titillium Web", sans-serif;
+    font-family: "sourcehansans-sc", sans-serif;
     font-size: 1rem;
     line-height: 1.75em;
     color: #BBC7CC;
