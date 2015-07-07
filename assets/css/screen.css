@@ -1400,6 +1400,11 @@ body:not(.post-template) .post-title {
 		display: none;
 	}
 
+	.cover-wrapper .cover-container .cloud-container {
+		-webkit-transform: scale(0.7,0.7);
+	}
+
+
     .post {
         font-size: 0.95em
     }
@@ -1501,6 +1506,10 @@ body:not(.post-template) .post-title {
 	.cover-wrapper .cover-container .cover-cat,
 	.cover-wrapper .cover-container .cover-moon {
 		display: none;
+	}
+
+	.cover-wrapper .cover-container .cloud-container {
+		-webkit-transform: scale(0.7,0.7);
 	}
 
     .archive-template .main-header {
@@ -1897,7 +1906,6 @@ body:not(.post-template) .post-title {
 .cover-wrapper:hover .cover-title{
 	opacity: 1;
 }
-
 
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
