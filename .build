@@ -1,3 +1,0 @@
-#!/bin/bash
-
-ssh root@128.199.254.243 "cd /var/www/ghost/content/themes/casper-mod && git pull && supervisorctl restart ghost && exit"
