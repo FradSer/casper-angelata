@@ -1509,7 +1509,7 @@ body:not(.post-template) .post-title {
 	}
 
 	.cover-wrapper .cover-container .cloud-container {
-		-webkit-transform: scale(0.7,0.7);
+		-webkit-transform: scale(0.5,0.5);
 	}
 
     .archive-template .main-header {
