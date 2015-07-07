@@ -747,6 +747,10 @@ body:not(.post-template) .post-title {
     font-size: 3.6rem;
 }
 
+.post-header h2 {
+	font-family: "Titillium Web" "sourcehansans-sc", sans-serif;
+}
+
 .post-title a {
     text-decoration: none;
 }
@@ -917,6 +921,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-footer h4 {
+	font-family: "Titillium Web", sans-serif;
     font-size: 1.8rem;
     margin: 0;
 }
