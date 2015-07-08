@@ -1,10 +1,18 @@
-# Casper
+# Casper Angelata
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+Base on [Casper](https://github.com/TryGhost/Casper) the default theme for[Ghost](http://github.com/tryghost/ghost/).
+
+Some code Copied from [Happy Halloween - Angelata](http://codepen.io/atomistheman/details/AEacD/).
+
+Improved by [FradSer](http://fradser.me).
 
 To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
 
-And this vision is modify by [FradSer](http://fradser.me)
+![Screenshot](http://d.pr/i/19srB+ "Screenshot of Casper Angelata")
+
+## Notice
+
+Please change the [justfont](http://en.justfont.com) script on `default.bhs` to make you can use Source Han Sans web font.
 
 ## Copyright & License
 
