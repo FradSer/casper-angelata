@@ -1345,8 +1345,87 @@ body:not(.post-template) .post-title {
 }
 
 
+
+
 /* ==========================================================================
-   10. Media Queries - Smaller than 900px
+   10. Cover
+   ========================================================================== */
+
+
+.cover-wrapper {
+	display: block;
+	position: absolute;
+	margin: auto;
+	top:0; bottom:0; left:0; right:0;
+	height: 60%;
+	width: 60%;
+}
+
+.cover-title{
+	opacity: 0;
+	mposition: absolute;
+	margin: auto;
+	top:0; bottom:0; left:0; right:0;
+}
+
+.cover-wrapper:hover .cover-title{
+	opacity: 1;
+}
+
+.cover-moon {
+	display: block;
+	position: absolute;
+	margin: auto;
+	top:0; bottom:0; left:0; right:0;
+	height: 120px;
+	width: 120px;
+	border-radius: 60px;
+	box-shadow: 0 0 60px 1px #444444;
+}
+
+.cover-cat {
+	display: block;
+	position: absolute;
+	margin: auto;
+	top:0; bottom:0; left:0; right:0;
+	height: 60px;
+	width: 70px;
+	bottom: 75px;
+	z-index: 0;
+	-webkit-transition: all linear 0.7s;
+}
+
+.cover-wrapper:hover .cover-cat{
+	bottom: 165px;
+}
+
+.cover-cloud {
+	display: block;
+	position: absolute;
+	margin: auto;
+	top:0; bottom:0; left:0; right:0;
+	width: 144px;
+	height: 84px;
+	-webkit-animation: clouds 40s infinite;
+	margin-left: 0;
+}
+
+.cover-cloud:nth-child(1){ top: auto; bottom: 120px; opacity: 0.85}
+.cover-cloud:nth-child(2){ right: auto; left: 400px; opacity: 0.5}
+.cover-cloud:nth-child(3){ bottom: auto; top: 120px; right: auto; left:-70px; opacity: 0.75;}
+.cover-cloud:nth-child(4){ bottom: auto; top: 90px; right: auto; left: 300px; opacity: 0.65;}
+
+@-webkit-keyframes clouds /*Safari and Chrome*/ {
+0 {margin-left:0;}
+25% {margin-left:100px;}
+50% {margin-left:0;}
+75% {margin-left:30px;}
+100% {margin-left: 0;}
+}
+
+
+/* ==========================================================================
+   11. Media Queries - Smaller than 900px
    ========================================================================== */
 
 @media only screen and (max-width: 900px) {
@@ -1484,7 +1563,7 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-   11. Media Queries - Smaller than 500px
+   12. Media Queries - Smaller than 500px
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
@@ -1511,6 +1590,11 @@ body:not(.post-template) .post-title {
 	.cover-wrapper .cover-container .cloud-container {
 		-webkit-transform: scale(0.5,0.5);
 	}
+
+	.cover-cloud:nth-child(1){ top: auto; bottom: 200px; opacity: 0.8}
+	.cover-cloud:nth-child(2){ top:auto; bottom: 50px; right: auto; left: 200px; opacity: 0.85}
+	.cover-cloud:nth-child(3){ bottom: auto; top: 100px; right: auto; left: -150px; opacity: 0.75;}
+	.cover-cloud:nth-child(4){ bottom: auto; top: 70px; right: auto; left: 300px; opacity: 0.65;}
 
     .archive-template .main-header {
         max-height: 20%;
@@ -1765,7 +1849,7 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-   12. Animations
+   13. Animations
    ========================================================================== */
 
 /* Used to fade in title/desc on the home page */
@@ -1822,89 +1906,6 @@ body:not(.post-template) .post-title {
         -webkit-transform: translateY(-5px) rotate(-90deg);
                 transform: translateY(-5px) rotate(-90deg);
     }
-}
-
-/* ==========================================================================
-   13. Cover
-   ========================================================================== */
-
-
-.cover-wrapper {
-	display: block;
-	position: absolute;
-	margin: auto;
-	top:0; bottom:0; left:0; right:0;
-	height: 60%;
-	width: 60%;
-	margin: auto;
-}
-
-.cover-container {
-	display: block;
-	position: absolute;
-	margin-top: 15%;
-	left:0; right:0;
-}
-
-.cover-cloud {
-	display: block;
-	position: absolute;
-	margin: auto;
-	top:0; bottom:0; left:0; right:0;
-	width: 144px;
-	height: 84px;
-	-webkit-animation: clouds 40s infinite;
-	margin-left: 0;
-}
-
-.cover-cloud:nth-child(1){ top: auto; bottom: 120px; opacity: 0.85}
-.cover-cloud:nth-child(2){ right: auto; left: 400px; opacity: 0.5}
-.cover-cloud:nth-child(3){ bottom: auto; top: 120px; right: auto; left:-70px; opacity: 0.75;}
-.cover-cloud:nth-child(4){ bottom: auto; top: 90px; right: auto; left: 300px; opacity: 0.65;}
-
-.cover-moon {
-	display: block;
-	position: absolute;
-	margin: auto;
-	top:0; bottom:0; left:0; right:0;
-	height: 120px;
-	width: 120px;
-	border-radius: 60px;
-	box-shadow: 0 0 60px 1px #444444;
-}
-
-.cover-cat {
-	display: block;
-	position: absolute;
-	margin: auto;
-	top:0; bottom:0; left:0; right:0;
-	height: 60px;
-	width: 70px;
-	bottom: 75px;
-	z-index: 0;
-	-webkit-transition: all linear 0.7s;
-}
-
-.cover-wrapper:hover .cover-cat{
-	bottom: 165px;
-}
-
-@-webkit-keyframes clouds /*Safari and Chrome*/ {
-0 {margin-left:0;}
-25% {margin-left:100px;}
-50% {margin-left:0;}
-75% {margin-left:30px;}
-100% {margin-left: 0;}
-}
-
-.cover-title{
-	opacity: 0;
-	margin: auto;
-	top:-40%; bottom:0; left:0; right:0;
-}
-
-.cover-wrapper:hover .cover-title{
-	opacity: 1;
 }
 
 /* ==========================================================================
