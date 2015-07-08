@@ -1,6 +1,6 @@
 # Casper Angelata
 
-Base on [Casper](https://github.com/TryGhost/Casper) the default theme for[Ghost](http://github.com/tryghost/ghost/).
+Base on [Casper](https://github.com/TryGhost/Casper) the default theme for [Ghost](http://github.com/tryghost/ghost/).
 
 Some code Copied from [Happy Halloween - Angelata](http://codepen.io/atomistheman/details/AEacD/).
 
