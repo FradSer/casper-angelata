@@ -6,7 +6,7 @@ Some code **copied** from [Happy Halloween - Angelata](http://codepen.io/atomist
 
 Improved by [FradSer](http://fradser.me).
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+To download, visit the [releases](https://github.com/FradSer/Casper-Angelata/releases) page.
 
 ![Screenshot](http://d.pr/i/19srB+ "Screenshot of Casper Angelata")
 
