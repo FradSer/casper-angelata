@@ -12,8 +12,8 @@ To download, visit the [releases](https://github.com/FradSer/Casper-Angelata/rel
 
 ## Notice
 
-- Please change the [justfont](http://en.justfont.com) script on `default.bhs` to make you can use Source Han Sans web font.
-- And please change the code 
+- **Please** change the [justfont](http://en.justfont.com) script on `default.bhs` to make you can use Source Han Sans web font.
+- **Please** change the code of [Disqus](https://disqus.com "Recommended Discussions · Disqus"), visit [this page](http://fradser.me/2015/06/01/ghost-zhong-shi-yong-disqus-zong-jie/ "Ghost 中使用 Disqus 总结").
 
 ## Copyright & License
 
