@@ -12,7 +12,8 @@ To download, visit the [releases](https://github.com/FradSer/Casper-Angelata/rel
 
 ## Notice
 
-Please change the [justfont](http://en.justfont.com) script on `default.bhs` to make you can use Source Han Sans web font.
+- Please change the [justfont](http://en.justfont.com) script on `default.bhs` to make you can use Source Han Sans web font.
+- And please change the code 
 
 ## Copyright & License
 
