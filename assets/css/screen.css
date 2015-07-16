@@ -747,7 +747,11 @@ body:not(.post-template) .post-title {
     font-size: 3.6rem;
 }
 
-.post-header h2 {
+.post-header h1 {
+	font-family: "Titillium Web" "sourcehansans-sc" "Heiti SC" "Hiragino Sans GB", serif;
+}
+
+.post-title {
 	font-family: "Titillium Web" "sourcehansans-sc" "Heiti SC" "Hiragino Sans GB", serif;
 }
 
