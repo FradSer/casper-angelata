@@ -747,8 +747,8 @@ body:not(.post-template) .post-title {
     font-size: 3.6rem;
 }
 
-.post-header h2 {
-	font-family: "Titillium Web" "sourcehansans-sc", sans-serif;
+.post-header {
+	font-family: "Titillium Web" "sourcehansans-sc" "Heiti SC" "Hiragino Sans GB", serif;
 }
 
 .post-title a {
@@ -768,7 +768,7 @@ body:not(.post-template) .post-title {
 .post-meta {
     display: block;
     margin: 1.75rem 0 0 0;
-    font-family: "Titillium Web", sans-serif;
+	font-family: "Titillium Web" "sourcehansans-sc" "Heiti SC" "Hiragino Sans GB", serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
     color: #9EABB3;
