@@ -116,7 +116,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* Apply these base styles to all icons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "casper-icons", "sourcehansans-sc", sans-serif;
+    font-family: "casper-icons", "Titillium Web", sans-serif;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -1232,7 +1232,7 @@ body:not(.post-template) .post-title {
     width: 80%;
     max-width: 710px;
     margin: 4rem auto;
-    font-family: "sourcehansans-sc", sans-serif;
+font-family: "Titillium Web" "sourcehansans-sc" "Heiti SC" "Hiragino Sans GB", serif;
     font-size: 1.3rem;
     color: #9EABB3;
     text-align: center;
