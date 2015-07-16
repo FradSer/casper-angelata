@@ -201,7 +201,6 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-	font-family: "Titillium Web" "sourcehansans-sc" "Heiti SC" "Hiragino Sans GB", serif;
 }
 
 h1 {
@@ -492,7 +491,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .main-nav a {
     text-decoration: none;
-    font-family: 'sourcehansans-sc', sans-serif;
+	font-family: "Titillium Web" "sourcehansans-sc" "Heiti SC" "Hiragino Sans GB", serif;
 }
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
