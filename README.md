@@ -1,6 +1,6 @@
 # Casper Angelata
 
-Base on [Casper](https://github.com/TryGhost/Casper) the default theme for [Ghost](http://github.com/tryghost/ghost/).Some code **copied** from [Happy Halloween - Angelata](http://codepen.io/atomistheman/details/AEacD/).
+Base on [Casper](https://github.com/TryGhost/Casper) the default theme for [Ghost](http://github.com/tryghost/ghost/). Just a copycat from [Happy Halloween - Angelata](http://codepen.io/atomistheman/details/AEacD/).
 
 To download, visit the [releases](https://github.com/FradSer/Casper-Angelata/releases) page.
 
@@ -9,7 +9,7 @@ To download, visit the [releases](https://github.com/FradSer/Casper-Angelata/rel
 ## Notice
 
 - **Please** change the [justfont](http://en.justfont.com) script on `default.bhs` to make you can use Source Han Sans web font.
-- **Please** change the code of [Disqus](https://disqus.com "Recommended Discussions · Disqus"), visit [this page](http://fradser.me/2015/06/01/ghost-zhong-shi-yong-disqus-zong-jie/ "Ghost 中使用 Disqus 总结").
+- **Please** change the code of [Disqus](https://disqus.com "Recommended Discussions · Disqus"), visit <del>[this page](http://fradser.me/2015/06/01/ghost-zhong-shi-yong-disqus-zong-jie/ "Ghost 中使用 Disqus 总结").</del>
 
 ## Copyright & License
 
